@@ -12,7 +12,7 @@ Gem::Specification.new do |gem|
   gem.email       = ["raglub.ruby@gmail.com"]
   gem.summary     = %q{This gem should be used when you test Mechanize offline}
   gem.description = %q{This gem should be used when you test Mechanize offline}
-  gem.homepage    = ""
+  gem.homepage    = "http://github.com/raglub/mechanize_rspec"
 
   gem.files         = `git ls-files`.split("\n")
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
