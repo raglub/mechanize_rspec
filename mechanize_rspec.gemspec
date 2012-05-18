@@ -1,14 +1,14 @@
 # -*- encoding: utf-8 -*-
 
-require "mechanize_rspec/version"
+require File.expand_path("../lib/mechanize_rspec/version", __FILE__)
 
 Gem::Specification.new do |gem|
 
   gem.name        = "mechanize_rspec"
-  gem.version     = MechanizeRspec::VERSIONi
+  gem.version     = MechanizeRspec::VERSION
   gem.platform    = Gem::Platform::RUBY
   gem.authors     = ["Michał Szyma"]
-  gem.data        = "2012-03-05"
+  gem.date        = "2012-03-05"
   gem.email       = ["raglub.ruby@gmail.com"]
   gem.summary     = %q{This gem should be used when you test Mechanize offline}
   gem.description = %q{This gem should be used when you test Mechanize offline}
@@ -20,5 +20,5 @@ Gem::Specification.new do |gem|
   gem.require_path  = "lib"
 
   gem.add_dependency "mechanize", ">= 2.1.1"
-
+  gem.add_development_dependency "rspec", ">= 2.10.0"
 end

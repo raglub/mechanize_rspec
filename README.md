@@ -48,4 +48,3 @@ Show all used urls (is useful when we want compare with file location.yml)
     > Mechanize.get("http://www.test.pl")
     > Mechanize::Config.uris.inspect #=> ["http://www.test.pl"]
 
-
